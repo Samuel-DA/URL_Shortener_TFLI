@@ -1,6 +1,6 @@
 # URL Shortener
 
-A lightweight URL shortener built with PHP, vanilla JavaScript, and SQLite.
+A lightweight URL shortener built with PHP, vanilla JavaScript, and SQLite3.
 
 ## Requirements
 
