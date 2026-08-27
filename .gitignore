@@ -1,0 +1,13 @@
+# SQLite database
+database/urls.sqlite
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# PHP built-in server / error logs
+*.log
