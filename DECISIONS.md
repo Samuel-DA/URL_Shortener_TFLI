@@ -2,7 +2,7 @@
 
 ## Code Structure
 
-- **Directory layout:** The project uses `public/` as the web root, `src/` for application logic, and `views/` for templates. The SQLite database is kept outside `public/` so it can't be accessed directly over HTTP.
+- **Directory layout:** The project uses `public/` as the webroot, `src/` for application logic, and `views/` for templates. The SQLite database is kept outside `public/` so it can't be accessed directly over HTTP.
 - **Front controller:** Requests go through `public/index.php`. This keeps routing and response handling in one place and is sufficient for a small/simple application.
 - **Routing:** A small custom router is used instead of adding a framework or routing package. There are only a few routes, so a full routing library felt unnecessary.
 - **Entry points:** Both `/` and `/urls` route display the URL shortening form and serve as entry points.
