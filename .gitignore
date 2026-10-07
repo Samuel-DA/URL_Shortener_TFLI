@@ -1,5 +1,6 @@
 # SQLite database
 database/urls.sqlite
+urls.sqlite
 
 # OS-generated files
 .DS_Store
